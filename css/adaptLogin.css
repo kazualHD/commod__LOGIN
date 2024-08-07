@@ -1,4 +1,7 @@
 @media (min-width: 360px) and (max-width: 480px) {
+    .account__link:not(:last-child) {
+        margin-right: 0;
+    }
     .login__title {
         font-size: 50px;
     }
@@ -129,6 +132,9 @@
 
 }
 @media (min-width: 481px) and (max-width: 768px) {
+    .account__link:not(:last-child) {
+        margin-right: 0;
+    }
     .account__row {
         display: grid;
         grid-template-columns: 1fr 1fr;
